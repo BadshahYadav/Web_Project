@@ -1,0 +1,74 @@
+.container{
+    border: 3px solid black;
+    /* background-color:azure; */
+    display: flex;
+    background:url("img/Bag.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 200px;
+    flex-direction: row;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.parent1{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    cursor: pointer;
+
+}
+.btn1{
+    border-radius: 9px;
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    cursor: pointer;
+    /* animation-name: box1;
+    animation-duration: 10s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode:forwards; */
+   animation: box1 5s 1ms infinite forwards;
+}
+@keyframes box1{
+ 0%{
+     margin-left: 0;
+      width: 0px;
+      background-color: red;
+  }
+
+ 40%{
+    margin-left: 0;
+      /* width: 21px; */
+      background-color:orange;
+  }
+ 80%{ 
+    margin-left: 0;
+      /* width: 100px; */
+      background: green;
+  }
+ 100%{ 
+    margin-left: 0;
+      /* width: 100px; */
+      background: green;
+  }
+
+}
+.parent2{
+    border: 2px solid white;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   background-color: white;
+    height: 27px;
+    width: 6px;
+    margin:auto;
+    margin-left: -65px;
+    cursor: pointer;
+}
